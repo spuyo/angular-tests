@@ -7,11 +7,17 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { StTableComponent } from './st-table/st-table.component';
+import { StHeaderComponent } from './st-header/st-header.component';
+import { StRowComponent } from './st-row/st-row.component';
+import { StCellComponent } from './st-cell/st-cell.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StTableComponent
+    StTableComponent,
+    StHeaderComponent,
+    StRowComponent,
+    StCellComponent
   ],
   imports: [
     BrowserModule,
